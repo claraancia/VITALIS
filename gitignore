@@ -1,0 +1,18 @@
+# Dataset (do not upload; link to the source in the README)
+dataset/
+*.avi
+*.npy
+
+# Cached intermediate results (large, re-creatable)
+results/cache/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
